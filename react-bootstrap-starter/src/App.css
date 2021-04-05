@@ -55,6 +55,11 @@ header.masthead .intro-text {
   font-size: 3rem
 }
 
+#root > div > header > div > div > div > div > p:nth-child(1){
+  border: 8px solid #fed136;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .flex-container{
@@ -68,4 +73,18 @@ header.masthead .intro-text {
   }
 
 
+
+
+}
+
+#products img{
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+  border: 3px solid #fed136
+
+}
+
+#products .card{
+  border-radius: 20px  !important;
 }

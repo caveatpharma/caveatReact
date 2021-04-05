@@ -90,7 +90,7 @@ function App() {
 
   </header>
 
-  
+{/*   
   <section className="page-section" id="products">
     <div className="container">
       <div className="row">
@@ -99,7 +99,6 @@ function App() {
           <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
-      //product row
       <div className="row text-center">
         <div className="col-md-4">
         <div class="card" style={{"width": "20 rem"}}>
@@ -168,6 +167,191 @@ function App() {
         </div>
         </div>
       </div>
+    </div>
+  </section> */}
+
+<section className="page-section" id="products">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12 text-center">
+          <h2 className="section-heading text-uppercase">Products</h2>
+          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+      </div>
+      <div className="row text-center">
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+          <img class="card-img-top" src="./products/IMG_0837.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">GUDVIT</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./products/IMG_0832.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">GUDKAL</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./products/IMG_0840.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">CAVSPAS-MF</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+
+
+      <div className="row text-center">
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+          <img class="card-img-top" src="./products/IMG_0831.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">ACLOZON-SP</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./products/IMG_0835.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">SAFEDOZ-50</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./products/IMG_0834.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">CAVSPAS DROPS</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <br/>
+      <br/>
+      <br/>
+
+      <div className="row text-center">
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+          <img class="card-img-top" src="./products/IMG_0836.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">CAVRAB-DSR</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./products/IMG_0838.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">CAVCOLD TABLETS</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./products/IMG_0833.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">CAVCOLD DROPS</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <br/>
+      <br/>
+      <br/>
+      {/* PRODUCT LINE 4 */}
+      <div className="row text-center">
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+
+          <img class="productImg"  src="./products/IMG_0841.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">GUDFLOX-200</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">CAVCOLD-D SYRUP</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">URIZON-K SOLUTION</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+
+      <div className="row text-center">
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+          <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">FRSHATE LAXATIVE</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        
+        <div className="col-md-4">
+        <div class="card shadow-lg p-3 mb-5 bg-white rounded" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">CAVCOLD AM SYRUP</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
     </div>
   </section>
 
