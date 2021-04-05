@@ -54,3 +54,18 @@ header.masthead .intro-text {
 #root > div > header > div > div > div > div > p:nth-child(1){
   font-size: 3rem
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .flex-container{
+    flex-direction: column;
+
+  }
+  .companyLogo{
+    margin-top: 50px;
+    height: 100px;
+    width: 130px;
+  }
+
+
+}

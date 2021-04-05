@@ -68,14 +68,26 @@ function App() {
 
   
   <header className="masthead">
-    <div className="container">
+  <div className="container">
       <div className="intro-text">
-        <div className="intro-heading text-uppercase"> Caveat Pharma</div>
-        {/* <div className="intro-lead-in">Caveat Pharma</div> */}
-
+        {/* <div className="intro-heading text-uppercase"> Caveat Pharma</div>
+        <div className="intro-lead-in">Quality Pharmecutical Products</div> */}
+        <div className="flex-container">
+          
+          <img className="companyLogo" src="./ca.png" alt="..."/>
+          
+          <div className="right">
+            <p className="companyName">
+              CAVEAT PHARMA
+            </p>
+            <p>Quality Pharmecutical Products since 1947.</p>
+          </div>
         {/* <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#products">Tell Me More</a> */}
       </div>
     </div>
+    </div>
+
+
   </header>
 
   
@@ -87,9 +99,10 @@ function App() {
           <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
+      //product row
       <div className="row text-center">
         <div className="col-md-4">
-        <div class="card" style={{"width": "18 rem"}}>
+        <div class="card" style={{"width": "20 rem"}}>
           <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
@@ -99,7 +112,7 @@ function App() {
         </div>
         </div>
         <div className="col-md-4">
-        <div class="card" style={{"width": "18 rem"}}>
+        <div class="card" style={{"width": "20 rem"}}>
         <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
@@ -109,7 +122,43 @@ function App() {
         </div>
         </div>
         <div className="col-md-4">
-        <div class="card" style={{"width": "18 rem"}}>
+        <div class="card" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+
+      <div className="row text-center">
+        <div className="col-md-4">
+        <div class="card" style={{"width": "20 rem"}}>
+          <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card" style={{"width": "20 rem"}}>
+        <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" className="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div className="col-md-4">
+        <div class="card" style={{"width": "20 rem"}}>
         <img class="card-img-top" src="./111.jpg" alt="Card image cap" />
           <div className="card-body">
             <h5 className="card-title">Card title</h5>
